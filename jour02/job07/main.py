@@ -10,3 +10,13 @@ while lettre <= len(chaine):
 
     if lettre > len(chaine):
         break
+
+
+
+
+#autre manière de faire sans while
+
+# chaine = "abcdefghijklmnopqrstuvwxyz" * 10
+
+# for i in range(1, len(chaine), 2):
+    # print(chaine[:i])
