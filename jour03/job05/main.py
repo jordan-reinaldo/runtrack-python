@@ -17,5 +17,7 @@ def calcule(num1, operator, num2):
             return "Erreur: Division par zéro"
     else:
         return "Opérateur invalide"
-resultat = calcule(12, "*", 13)
-print(resultat)
+print(calcule(2, "+", 6))
+print(calcule(3, "/", 0))
+print(calcule(2, "*", 6))
+print(calcule(3, "-", 2))
