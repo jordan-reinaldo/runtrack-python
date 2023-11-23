@@ -1,21 +1,21 @@
 def list():
-    liste= [10, 20, 30, 40, 50]
-    return liste
+    L= [10, 20, 30, 40, 50]
+    return L
 print(list())
 
 def list():
-    liste= [10, 20, 30, 40, 50]
-    return liste[1]
+    L= [10, 20, 30, 40, 50]
+    return L[1]
 print(list())
 
 def list():
-    liste= [10, 20, 30, 40, 50]
-    liste[3] = liste[2] + liste[4]
-    return liste
+    L= [10, 20, 30, 40, 50]
+    L[3] = L[2] + L[4]
+    return L
 print (list())
 
 def list():
-    liste= [10, 20, 30, 40, 50]
-    liste[3] = liste[2] + liste[4]
-    return liste[-1]
+    L= [10, 20, 30, 40, 50]
+    L[3] = L[2] + L[4]
+    return L[-1]
 print (list())
