@@ -1,18 +1,18 @@
-def list_up1(liste):
+def list_add1(liste):
     return [i + 1 for i in liste]
 
 L=[7, 11, 42, 39, 2]
 
-L_up1 = list_up1(L)
+L_add1 = list_add1(L)
 
-print(L_up1)
+print(L_add1)
 
 # ci-dessous test de la fonction pour vérifier compréhension, on prend la nouvelle liste (celle demandé par l'exercice comme paramètre)
 
-L_up2 = list_up1(L_up1)
+L_add2 = list_add1(L_add1)
 
 
-print(L_up2)
+print(L_add2)
 
 
 
