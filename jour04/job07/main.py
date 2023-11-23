@@ -1,8 +1,8 @@
 L = [8,24,48,2,16]
 
-def multiples_3(L):
+def multiples_3(list):
     multiple = 0
-    for i in L:
+    for i in list:
         if i % 3 == 0:
             multiple += 1
     return multiple
