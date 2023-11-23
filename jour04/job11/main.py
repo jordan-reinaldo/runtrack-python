@@ -1,7 +1,7 @@
+L=[7, 11, 42, 39, 2]
+
 def list_add1(liste):
     return [i + 1 for i in liste]
-
-L=[7, 11, 42, 39, 2]
 
 L_add1 = list_add1(L)
 
