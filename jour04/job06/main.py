@@ -1,11 +1,10 @@
-def list():
-    L= [10, 20, 30, 40, 50]
-    return L
-print(list())
+L= [10, 20, 30, 40, 50]
+def list(liste):
+    return liste
+print(list(L))
 
 
-def list():
-    L= [10, 20, 30, 40, 50]
-    L[0], L[-1] = L[-1], L[0]
-    return L
-print(list())
+def list_(liste):
+    liste[0], liste[-1] = liste[-1], liste[0]
+    return liste
+print(list_(L))
