@@ -1,8 +1,8 @@
 L = [8, 24, 27, 48, 2, 16, 9, 102, 7, 84, 91]
 
-def produit_25_90(liste, min_val, max_val):
+def produit_25_90(L, min_val, max_val):
     produit = 1
-    for i in liste:
+    for i in L:
         if min_val <= i <= max_val:
             produit *= i
     return produit
