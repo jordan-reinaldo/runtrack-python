@@ -4,7 +4,7 @@ def list(liste):
 print(list(L))
 
 
-def list_(liste):
+def list(liste):
     liste[0], liste[-1] = liste[-1], liste[0]
     return liste
-print(list_(L))
+print(list(L))
