@@ -1,7 +1,8 @@
 L=[7, 11, 42, 39, 2]
 
 def list_add1(liste):
-    return [i + 1 for i in liste]
+    newlist=[i + 1 for i in liste]
+    return newlist
 
 L_add1 = list_add1(L)
 
