@@ -9,6 +9,7 @@ def multiples_3(L):
 
 print("Nombre de multiples de 3 dans la liste :", multiples_3(L))
 
+# Autre méthode
 
 # L = [8, 24,48,2,16]
 
