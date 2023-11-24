@@ -1,14 +1,16 @@
 L = [22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50]
 
-def arrondir_inferieur(nombre):
-    entier = int(nombre)
-    return entier
-
 def longueur(liste):
     compteur = 0
     for nombre in liste:
         compteur += 1
     return compteur
+
+def arrondir_custom(liste):
+    i = 0
+    while i < longueur(liste):
+        liste[i] = int(liste[i])// 1
+        i += 1
 
 def trier(liste):
     echange = True
@@ -23,9 +25,9 @@ def trier(liste):
     return liste
 
 # Arrondir chaque élément de L
-L_arrondi = [arrondir_inferieur(nombre) for nombre in L]
+arrondir_custom(L)
 
 # Trier la liste arrondie
-L_triee = trier(L_arrondi)
+L_triee = trier(L)
 
 print(L_triee)
