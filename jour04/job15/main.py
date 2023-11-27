@@ -9,7 +9,7 @@ def longueur(liste):
 def arrondir_custom(liste):
     i = 0
     while i < longueur(liste):
-        liste[i] = int(liste[i])// 1
+        liste[i] = liste[i]// 1
         i += 1
 
 def trier(liste):
