@@ -15,6 +15,6 @@ def chiffrement_cesar(message, decalage):
 
     return message_chiffre
 
-message = 'Bonjour ! Jordan Reinaldo xYz'
+message = 'Bonjour ! Jordan Reinaldo xYzW'
 decalage = 3
 print(chiffrement_cesar(message, decalage))
