@@ -56,6 +56,6 @@ tapisserie(10)
 # Appel de la fonction tapisserie(10):
 
 # Enfin, on appelle la fonction tapisserie avec une taille de 10 pour créer un motif de tapisserie de taille 10.
-# Le script crée essentiellement une bordure supérieure et inférieure du motif de tapisserie avec des caractères + et -.
-#  Ensuite, à l'intérieur de ces bordures, il construit une série de lignes diagonales vides avec des caractères # entre deux caractères |. 
+# Le script crée essentiellement une bordure supérieure et inférieure du motif de tapisserie avec des caractères + et -. 
+# Ensuite, à l'intérieur de ces bordures, il construit une série de lignes diagonales vides avec des caractères # entre deux caractères |. 
 # La taille du motif de tapisserie est déterminée par l'argument passé à la fonction tapisserie.
